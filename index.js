@@ -17,9 +17,9 @@ const menu = require("./lib/menu.js");
 const donasi = require("./lib/donasi.js");
 const info = require("./lib/info.js");
 /////////////////
-const BotName = 'ALF BOT'; 
-const instagram = 'https://instagram.com/aditiaalfians'; 
-const whatsapp = 'wa.me/6285799496179'; 
+const BotName = 'BETTER BOT'; 
+const instagram = 'https://instagram.com/squishyprogrammer'; 
+const whatsapp = 'wa.me/5562995745548'; 
 const kapanbotaktif = '24 JAM'; 
 //const grupch1 = 'belum ada grup'; 
 //const grupch2 = 'belum ada grup' ; 
@@ -74,7 +74,7 @@ conn.on('user-presence-update', json => console.log(json.id + ' presence is => '
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@aditiaalfians`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@squishyprogrammer`)
 })
 
 conn.on('message-new', async(m) =>
@@ -354,7 +354,7 @@ const get = require('got')
     var meninggal = (body[0]['meninggal']);
     var dirawat = (body[0]['dirawat']);
     console.log(body[0]['name'])
-    conn.sendMessage(id,`📌DATA WABAH COVID-19 TERBARU DI INDONESIA\n\n📍Positif ==> ${positif} \n📍Sembuh ==> ${sembuh} \n📍Meninggal ==> ${meninggal}\n📍Dirawat ==> ${dirawat}`, MessageType.text);
+    conn.sendMessage(id,`📌ÚLTIMA PRAGA COVID-19 NO BRASIL \n\n📍Positif ==> ${positif} \n📍Sembuh ==> ${sembuh} \n📍Meninggal ==> ${meninggal}\n📍Dirawat ==> ${dirawat}`, MessageType.text);
 }
    if (text.includes("!quotes"))
    {
